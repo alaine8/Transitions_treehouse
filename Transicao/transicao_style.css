@@ -1,0 +1,66 @@
+body {
+    padding-top: 50px;
+    background: #F5F5F5;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+.box {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: steelblue;
+/*     Adicionar sempre no original
+    Se as regras forem as mesmas para os dois estados
+    precisamos colocar elas somente no primeiro elemento do css
+*/
+    transition-duration: .3s;
+ }
+
+.box:hover {
+    background: lightcoral;
+    border-radius: 50%;
+
+    /* Transição */
+/*     transition-property: all;
+transition-property: background, border-radius;
+transition-duration: 1s, .4s; */
+
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 15px;
+    width: 850px;
+    height: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+/* 
+.box {
+    width: 25%;
+    height: 200px;
+    border-radius: 8px;
+    background: #4682b4;
+    transition-duration: 1s, .6s;
+     transition-timing-function: linear;transition-timing-function: ease;
+        transition-timing-function: ease-in; 
+transition-timing-function: ease-out;
+transition-timing-function: steps(4, end);
+    transition-timing-function: cubic-bezier(.5, 0, .3, 1), ease;
+    transition-delay: 1s, 0;
+    transition-property: margin, background;
+    
+} 
+
+
+
+.wrap:hover .box {
+    background: #f08080;
+    margin-left: 75%;
+}*/
